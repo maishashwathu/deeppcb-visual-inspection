@@ -1,0 +1,11 @@
+data/
+.deps/
+.venv/
+tmp/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+artifacts/*.joblib
+artifacts/cache/
+.jupyter/
+.mplconfig/

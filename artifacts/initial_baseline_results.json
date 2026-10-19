@@ -1,0 +1,51 @@
+{
+  "dataset_revision": "08e98c4db5922613fb97176eb3d6497d48260cb1",
+  "seed": 42,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.0.1",
+    "opencv": "4.11.0",
+    "sklearn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "split_sizes": {
+    "train": 800,
+    "validation": 200,
+    "test": 500
+  },
+  "proposal_config": {
+    "min_area": 16,
+    "dilation": 1,
+    "pad": 9
+  },
+  "confidence_threshold": 0.0,
+  "training_seconds": 90.3525118001271,
+  "test_inference_seconds": 20.14605430001393,
+  "test_at_50": {
+    "IoU": 0.5,
+    "precision": 0.9509345794392523,
+    "recall": 0.5184713375796178,
+    "F1": 0.6710634789777411,
+    "mAP": 0.5404708925655094,
+    "TP": 1628,
+    "FP": 84,
+    "FN": 1512,
+    "images": 500
+  },
+  "test_at_33": {
+    "IoU": 0.33,
+    "precision": 0.9719626168224299,
+    "recall": 0.5299363057324841,
+    "F1": 0.6859027205276175,
+    "mAP": 0.5543892463759599,
+    "TP": 1664,
+    "FP": 48,
+    "FN": 1476,
+    "images": 500
+  },
+  "feature_dimension": 1107,
+  "training_examples": 54488,
+  "robustness_subset_size": 30,
+  "evaluation": "class-aware one-to-one, all-point AP; not official DeepPCB or COCO evaluator"
+}
